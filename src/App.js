@@ -9,6 +9,7 @@ function App() {
      Hello From Rana Abid
      Again checking for actions in job CI/CD 
      <Test myName = "Rana Abid"  myJob = {myProfession} />
+     <Test myName1 = "Rana Abid Mukhtar"  myJob = {myProfession} />
     </div>
   );
 }
