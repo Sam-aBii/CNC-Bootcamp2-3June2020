@@ -7,6 +7,7 @@ function Test (props){
      <h1>Today we are learning React</h1>
      <h2>A very small intro about Props State etc</h2>
      <h3>{props.myName}</h3>
+     <h4>{props.myJob}</h4>
     </div>
         
     )
