@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import Test from "./test"
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
      Hello From Rana Abid
      Again checking for actions in job CI/CD 
-     <Test myName = "Rana Abid"  myJob = {myProfession} />
+     <Test myName = "Rana Abid" myJob = {myProfession} />
     </div>
   );
 }
