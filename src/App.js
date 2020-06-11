@@ -11,6 +11,8 @@ function App() {
       <Test myName="Rana Abid" myJob={myProfession} />
       <h2>Value of counter variable is:{count}</h2>
       <button onClick={() => setCount(count + 1)}>Update Counter Number</button>
+      <br />
+      <br /> 
       <button onClick = {() => setCount(count - 1)}> decrement  </button>
     </div>
   );
