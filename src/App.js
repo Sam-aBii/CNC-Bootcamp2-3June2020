@@ -11,10 +11,10 @@ function App() {
       <Test myName="Rana Abid" myJob={myProfession} />
       <h2>Update counter state : {count} </h2>
       <br />
-      <button onClick={() => setCount(count + 1)}> Increament </button>
+      <button onClick={() => setCount(count + 1)}> Increament Button </button>
       <br />
       <br />
-      <button onClick={() => setCount(count - 1)}> Increament </button>
+      <button onClick={() => setCount(count - 1)}> Decreament Button </button>
     </div>
   );
 }
