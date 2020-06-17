@@ -5,7 +5,7 @@ export const Parent = (props) => {
     return (
         <div>
             This is Parent component
-            {/* <h2>{props.name}</h2> */}
+            <h2>{props.name}</h2>
             <Child myName = {props.name}  />
             
         </div>
